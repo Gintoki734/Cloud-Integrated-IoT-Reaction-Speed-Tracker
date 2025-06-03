@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Top Scores</title>
+  </head>
+  <body>
+    <h1>Top Scores</h1>
+    <table border="1">
+      <tbody>
+        {% for score in scores %}
+        <p>
+          Response Time: {{ score['Response_Time'] | float }} | Player Name:
+          {{score['Player_Name'] }}
+        </p>
+        {% endfor %}
+      </tbody>
+    </table>
+    <form action="/current" method="POST">
+      <button type="submit" id="updateButton">Update Scores</button>
+    </form>
+  </body>
+</html>
