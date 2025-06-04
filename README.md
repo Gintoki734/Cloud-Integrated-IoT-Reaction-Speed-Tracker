@@ -36,4 +36,6 @@ This project is a complete IoT-based reaction time tracker built using Raspberry
 
 ## 🎥 Demo Video
 
-Watch the full demo here: [![Watch on YouTube](https://img.youtube.com/vi/DpEk_6M3_Rg/0.jpg)](https://www.youtube.com/watch?v=DpEk_6M3_Rg)
+Watch the full demo here: 
+
+[![Watch on YouTube](https://img.youtube.com/vi/DpEk_6M3_Rg/0.jpg)](https://www.youtube.com/watch?v=DpEk_6M3_Rg)
